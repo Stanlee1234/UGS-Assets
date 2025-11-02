@@ -1,0 +1,1324 @@
+{
+  "characters": {
+    "elpoderoso": {
+      "displayName": "El Poderoso",
+      "baseGravity": "10",
+      "portraitAnim": "JumpFwd",
+      "portraitFrame": "2",
+      "jumpForward": {
+        "status": "1",
+        "velX": "6",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpBackward": {
+        "status": "2",
+        "velX": "-6",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpForward2": {
+        "status": "1",
+        "velX": "6",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpBackward2": {
+        "status": "2",
+        "velX": "-6",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "FA": {
+        "status": "1",
+        "velX": "5",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_belly",
+        "customCall": "FA"
+      },
+      "FA2": {
+        "status": "1",
+        "velX": "3",
+        "velY": "10",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "3",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_elbow",
+        "customCall": "FA2"
+      },
+      "BA": {
+        "status": "2",
+        "velX": "6",
+        "velY": "-5",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_dropkick",
+        "customCall": "BA"
+      },
+      "BA2": {
+        "status": "2",
+        "velX": "0",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "1",
+        "activeFrameStop": "3",
+        "landingLag": "20",
+        "hasVFX": "1",
+        "SFX": "poderoso_furyclaw",
+        "customCall": "BA2"
+      },
+      "SPECIAL": {
+        "status": "99",
+        "velX": "0",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "isProjectile": "1",
+        "customCall": "SP"
+      },
+      "ULTIMATE": {
+        "status": "99",
+        "velX": "0",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "isProjectile": "1",
+        "customCall": "UL"
+      },
+      "SPprojectile": {
+        "name": "SP_Projectile",
+        "velX": "15",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      },
+      "ULprojectile": {
+        "name": "UL_Projectile",
+        "velX": "5",
+        "velY": "0",
+        "accelX": "8",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      }
+    },
+    "elasombroso": {
+      "displayName": "El Asombroso",
+      "baseGravity": "10",
+      "portraitAnim": "BA2",
+      "portraitFrame": "0",
+      "jumpForward": {
+        "status": "1",
+        "velX": "6",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpBackward": {
+        "status": "2",
+        "velX": "-6",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpForward2": {
+        "status": "1",
+        "velX": "6",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpBackward2": {
+        "status": "2",
+        "velX": "-6",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "FA": {
+        "status": "1",
+        "velX": "6",
+        "velY": "-5",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_dropkick",
+        "customCall": "BA"
+      },
+      "FA2": {
+        "status": "1",
+        "velX": "0",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "1",
+        "activeFrameStop": "3",
+        "landingLag": "20",
+        "hasVFX": "1",
+        "SFX": "poderoso_furyclaw",
+        "customCall": "BA2"
+      },
+      "BA": {
+        "status": "2",
+        "velX": "6",
+        "velY": "-5",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_belly",
+        "customCall": "FA"
+      },
+      "BA2": {
+        "status": "2",
+        "velX": "3",
+        "velY": "10",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "3",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_elbow",
+        "customCall": "FA2"
+      },
+      "SPECIAL": {
+        "status": "99",
+        "velX": "0",
+        "velY": "0",
+        "accelX": "10",
+        "accelY": "0",
+        "activeFrameStart": "1",
+        "activeFrameStop": "3",
+        "isProjectile": "0",
+        "customCall": "SP"
+      },
+      "ULTIMATE": {
+        "status": "99",
+        "velX": "6",
+        "velY": "0",
+        "accelX": "6",
+        "accelY": "0",
+        "activeFrameStart": "0",
+        "activeFrameStop": "3",
+        "isProjectile": "0",
+        "customCall": "UL"
+      },
+      "SPprojectile": {
+        "name": "SP_Projectile",
+        "velX": "15",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      },
+      "ULprojectile": {
+        "name": "UL_Projectile",
+        "velX": "15",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      }
+    },
+    "elfabuloso": {
+      "displayName": "El Fabuloso",
+      "baseGravity": "10",
+      "portraitAnim": "JumpBkd_B",
+      "portraitFrame": "0",
+      "jumpForward": {
+        "status": "1",
+        "velX": "9",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "20",
+        "customCall": "0"
+      },
+      "jumpBackward": {
+        "status": "2",
+        "velX": "-6",
+        "velY": "-18",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpForward2": {
+        "status": "1",
+        "velX": "9",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "20",
+        "customCall": "0"
+      },
+      "jumpBackward2": {
+        "status": "2",
+        "velX": "-6",
+        "velY": "-18",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "FA": {
+        "status": "1",
+        "velX": "3",
+        "velY": "-20",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_belly",
+        "customCall": "DB"
+      },
+      "FA2": {
+        "status": "1",
+        "velX": "4",
+        "velY": "-20",
+        "accelX": "0",
+        "accelY": "15",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_belly",
+        "customCall": "FA"
+      },
+      "BA": {
+        "status": "2",
+        "velX": "7",
+        "velY": "-5",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "3",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_elbow",
+        "customCall": "DP"
+      },
+      "BA2": {
+        "status": "2",
+        "velX": "1",
+        "velY": "-15",
+        "accelX": "5",
+        "accelY": "15",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_dropkick",
+        "customCall": "DK"
+      },
+      "SPECIAL": {
+        "status": "99",
+        "velX": "-2",
+        "velY": "-5",
+        "accelX": "0",
+        "accelY": "3",
+        "activeFrameStart": "0",
+        "activeFrameStop": "0",
+        "isProjectile": "1",
+        "customCall": "SP"
+      },
+      "ULTIMATE": {
+        "status": "99",
+        "velX": "-2",
+        "velY": "-5",
+        "accelX": "0",
+        "accelY": "3",
+        "activeFrameStart": "0",
+        "activeFrameStop": "0",
+        "isProjectile": "0",
+        "customCall": "UL"
+      },
+      "SPprojectile": {
+        "name": "SP_Projectile",
+        "velX": "7",
+        "velY": "0",
+        "accelX": "-3",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      },
+      "ULprojectile": {
+        "name": "UL_Projectile",
+        "velX": "15",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      }
+    },
+    "eltalentoso": {
+      "displayName": "El Talentoso",
+      "baseGravity": "10",
+      "portraitAnim": "BA2",
+      "portraitFrame": "1",
+      "jumpForward": {
+        "status": "1",
+        "velX": "3",
+        "velY": "-23",
+        "accelX": "0",
+        "accelY": "8",
+        "customCall": "0"
+      },
+      "jumpBackward": {
+        "status": "2",
+        "velX": "-3",
+        "velY": "-23",
+        "accelX": "0",
+        "accelY": "8",
+        "customCall": "0"
+      },
+      "jumpForward2": {
+        "status": "1",
+        "velX": "9",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "20",
+        "customCall": "0"
+      },
+      "jumpBackward2": {
+        "status": "2",
+        "velX": "-9",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "20",
+        "customCall": "0"
+      },
+      "FA": {
+        "status": "1",
+        "velX": "5",
+        "velY": "-8",
+        "accelX": "0",
+        "accelY": "8",
+        "activeFrameStart": "1",
+        "activeFrameStop": "3",
+        "landingLag": "10",
+        "hasVFX": "1",
+        "SFX": "poderoso_furyclaw",
+        "customCall": "BA2"
+      },
+      "FA2": {
+        "status": "1",
+        "velX": "7",
+        "velY": "-5",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "3",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_elbow",
+        "customCall": "DP"
+      },
+      "BA": {
+        "status": "2",
+        "velX": "0",
+        "velY": "-12",
+        "accelX": "5",
+        "accelY": "10",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_dropkick",
+        "customCall": "DK"
+      },
+      "BA2": {
+        "status": "2",
+        "velX": "5",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "12",
+        "activeFrameStart": "2",
+        "activeFrameStop": "3",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_elbow",
+        "customCall": "FA2"
+      },
+      "SPECIAL": {
+        "status": "99",
+        "velX": "0",
+        "velY": "0",
+        "accelX": "-3",
+        "accelY": "0",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "isProjectile": "1",
+        "customCall": "SP"
+      },
+      "ULTIMATE": {
+        "status": "99",
+        "velX": "0",
+        "velY": "0",
+        "accelX": "-5",
+        "accelY": "0",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "isProjectile": "1",
+        "customCall": "UL"
+      },
+      "SPprojectile": {
+        "name": "SP_Projectile",
+        "velX": "12",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      },
+      "ULprojectile": {
+        "name": "UL_Projectile",
+        "velX": "10",
+        "velY": "0",
+        "accelX": "5",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      }
+    },
+    "elhermoso": {
+      "displayName": "El Hermoso",
+      "baseGravity": "10",
+      "portraitAnim": "DK",
+      "portraitFrame": "1",
+      "jumpForward": {
+        "status": "1",
+        "velX": "6",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpBackward": {
+        "status": "2",
+        "velX": "-9",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "20",
+        "customCall": "0"
+      },
+      "jumpForward2": {
+        "status": "1",
+        "velX": "5",
+        "velY": "-12",
+        "accelX": "0",
+        "accelY": "5",
+        "customCall": "0"
+      },
+      "jumpBackward2": {
+        "status": "2",
+        "velX": "-5",
+        "velY": "-12",
+        "accelX": "0",
+        "accelY": "5",
+        "customCall": "0"
+      },
+      "FA": {
+        "status": "1",
+        "velX": "5",
+        "velY": "-10",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_belly",
+        "customCall": "FA"
+      },
+      "FA2": {
+        "status": "1",
+        "velX": "9",
+        "velY": "-10",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_dropkick",
+        "customCall": "BA"
+      },
+      "BA": {
+        "status": "2",
+        "velX": "6",
+        "velY": "-10",
+        "accelX": "0",
+        "accelY": "12",
+        "activeFrameStart": "2",
+        "activeFrameStop": "3",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_elbow",
+        "customCall": "FA2"
+      },
+      "BA2": {
+        "status": "2",
+        "velX": "1",
+        "velY": "-15",
+        "accelX": "5",
+        "accelY": "20",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_dropkick",
+        "customCall": "DK"
+      },
+      "SPECIAL": {
+        "status": "99",
+        "velX": "7",
+        "velY": "0",
+        "accelX": "1",
+        "accelY": "10",
+        "activeFrameStart": "1",
+        "activeFrameStop": "5",
+        "isProjectile": "0",
+        "customCall": "SP"
+      },
+      "ULTIMATE": {
+        "status": "99",
+        "velX": "6",
+        "velY": "0",
+        "accelX": "5",
+        "accelY": "10",
+        "activeFrameStart": "0",
+        "activeFrameStop": "0",
+        "isProjectile": "0",
+        "customCall": "UL"
+      },
+      "SPprojectile": {
+        "name": "SP_Projectile",
+        "velX": "15",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      },
+      "ULprojectile": {
+        "name": "UL_Projectile",
+        "velX": "15",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      }
+    },
+    "elmusculoso": {
+      "displayName": "El Musculoso",
+      "baseGravity": "10",
+      "portraitAnim": "FA",
+      "portraitFrame": "2",
+      "jumpForward": {
+        "status": "1",
+        "velX": "3",
+        "velY": "-23",
+        "accelX": "0",
+        "accelY": "8",
+        "customCall": "0"
+      },
+      "jumpBackward": {
+        "status": "2",
+        "velX": "-6",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpForward2": {
+        "status": "1",
+        "velX": "6",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpBackward2": {
+        "status": "2",
+        "velX": "-3",
+        "velY": "-23",
+        "accelX": "0",
+        "accelY": "8",
+        "customCall": "0"
+      },
+      "FA": {
+        "status": "1",
+        "velX": "7",
+        "velY": "-5",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "3",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_elbow",
+        "customCall": "DP"
+      },
+      "FA2": {
+        "status": "1",
+        "velX": "4",
+        "velY": "-20",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_belly",
+        "customCall": "DB"
+      },
+      "BA": {
+        "status": "2",
+        "velX": "8",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "1",
+        "activeFrameStop": "3",
+        "landingLag": "10",
+        "hasVFX": "1",
+        "SFX": "poderoso_furyclaw",
+        "customCall": "BA2"
+      },
+      "BA2": {
+        "status": "2",
+        "velX": "6",
+        "velY": "-5",
+        "accelX": "3",
+        "accelY": "20",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_dropkick",
+        "customCall": "BA"
+      },
+      "SPECIAL": {
+        "status": "99",
+        "velX": "-2",
+        "velY": "-13",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "0",
+        "activeFrameStop": "0",
+        "isProjectile": "1",
+        "customCall": "SP"
+      },
+      "ULTIMATE": {
+        "status": "99",
+        "velX": "-2",
+        "velY": "-13",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "0",
+        "activeFrameStop": "0",
+        "isProjectile": "1",
+        "customCall": "UL"
+      },
+      "SPprojectile": {
+        "name": "SP_Projectile",
+        "velX": "2",
+        "velY": "0",
+        "accelX": "-1",
+        "accelY": "10",
+        "canSlide": "1",
+        "isNonDamaging": "1",
+        "floorSpawn": "0"
+      },
+      "ULprojectile": {
+        "name": "UL_Projectile",
+        "velX": "2",
+        "velY": "0",
+        "accelX": "-1",
+        "accelY": "10",
+        "canSlide": "1",
+        "isNonDamaging": "1",
+        "floorSpawn": "0"
+      }
+    },
+    "elpeligroso": {
+      "displayName": "El Peligroso",
+      "baseGravity": "10",
+      "portraitAnim": "DP",
+      "portraitFrame": "3",
+      "jumpForward": {
+        "status": "1",
+        "velX": "9",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "20",
+        "customCall": "0"
+      },
+      "jumpBackward": {
+        "status": "2",
+        "velX": "-9",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "20",
+        "customCall": "0"
+      },
+      "jumpForward2": {
+        "status": "1",
+        "velX": "3",
+        "velY": "-23",
+        "accelX": "0",
+        "accelY": "8",
+        "customCall": "0"
+      },
+      "jumpBackward2": {
+        "status": "2",
+        "velX": "-3",
+        "velY": "-23",
+        "accelX": "0",
+        "accelY": "8",
+        "customCall": "0"
+      },
+      "FA": {
+        "status": "1",
+        "velX": "4",
+        "velY": "-5",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "3",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_elbow",
+        "customCall": "FA2"
+      },
+      "FA2": {
+        "status": "1",
+        "velX": "0",
+        "velY": "-12",
+        "accelX": "5",
+        "accelY": "10",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_dropkick",
+        "customCall": "DK"
+      },
+      "BA": {
+        "status": "2",
+        "velX": "7",
+        "velY": "-15",
+        "accelX": "3",
+        "accelY": "15",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_belly",
+        "customCall": "DB"
+      },
+      "BA2": {
+        "status": "2",
+        "velX": "6",
+        "velY": "-13",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_belly",
+        "customCall": "FA"
+      },
+      "SPECIAL": {
+        "status": "99",
+        "velX": "0",
+        "velY": "10",
+        "accelX": "0",
+        "accelY": "20",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "isProjectile": "1",
+        "customCall": "SP"
+      },
+      "ULTIMATE": {
+        "status": "99",
+        "velX": "0",
+        "velY": "10",
+        "accelX": "0",
+        "accelY": "20",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "isProjectile": "1",
+        "customCall": "UL"
+      },
+      "SPprojectile": {
+        "name": "SP_Projectile",
+        "velX": "1",
+        "velY": "-2",
+        "accelX": "0",
+        "accelY": "1",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      },
+      "ULprojectile": {
+        "name": "UL_Projectile",
+        "velX": "1",
+        "velY": "-2",
+        "accelX": "0",
+        "accelY": "0.5",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      }
+    },
+    "eltenebroso": {
+      "displayName": "El Tenebroso",
+      "baseGravity": "10",
+      "portraitAnim": "BA2",
+      "portraitFrame": "3",
+      "jumpForward": {
+        "status": "1",
+        "velX": "5",
+        "velY": "-12",
+        "accelX": "0",
+        "accelY": "5",
+        "customCall": "0"
+      },
+      "jumpBackward": {
+        "status": "2",
+        "velX": "-5",
+        "velY": "-12",
+        "accelX": "0",
+        "accelY": "5",
+        "customCall": "0"
+      },
+      "jumpForward2": {
+        "status": "1",
+        "velX": "10",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "20",
+        "customCall": "0"
+      },
+      "jumpBackward2": {
+        "status": "2",
+        "velX": "-10",
+        "velY": "-22",
+        "accelX": "0",
+        "accelY": "20",
+        "customCall": "0"
+      },
+      "FA": {
+        "status": "1",
+        "velX": "6",
+        "velY": "-20",
+        "accelX": "0",
+        "accelY": "20",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_belly",
+        "customCall": "DB"
+      },
+      "FA2": {
+        "status": "1",
+        "velX": "4",
+        "velY": "-8",
+        "accelX": "0",
+        "accelY": "8",
+        "activeFrameStart": "1",
+        "activeFrameStop": "3",
+        "landingLag": "20",
+        "hasVFX": "1",
+        "SFX": "poderoso_furyclaw",
+        "customCall": "BA2"
+      },
+      "BA": {
+        "status": "2",
+        "velX": "2",
+        "velY": "-22",
+        "accelX": "5",
+        "accelY": "20",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_dropkick",
+        "customCall": "DK"
+      },
+      "BA2": {
+        "status": "2",
+        "velX": "6",
+        "velY": "-5",
+        "accelX": "0",
+        "accelY": "8",
+        "activeFrameStart": "2",
+        "activeFrameStop": "3",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_elbow",
+        "customCall": "DP"
+      },
+      "SPECIAL": {
+        "status": "99",
+        "velX": "12",
+        "velY": "0",
+        "accelX": "-5",
+        "accelY": "16",
+        "activeFrameStart": "0",
+        "activeFrameStop": "0",
+        "isProjectile": "0",
+        "customCall": "SP"
+      },
+      "ULTIMATE": {
+        "status": "99",
+        "velX": "18",
+        "velY": "0",
+        "accelX": "-5",
+        "accelY": "13",
+        "activeFrameStart": "0",
+        "activeFrameStop": "0",
+        "isProjectile": "0",
+        "customCall": "UL"
+      },
+      "SPprojectile": {
+        "name": "SP_Projectile",
+        "velX": "15",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      },
+      "ULprojectile": {
+        "name": "UL_Projectile",
+        "velX": "15",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      }
+    },
+    "elmaravilloso": {
+      "displayName": "NINE",
+      "baseGravity": "10",
+      "portraitAnim": "JumpFwd",
+      "portraitFrame": "2",
+      "jumpForward": {
+        "status": "1",
+        "velX": "7",
+        "velY": "-20",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpBackward": {
+        "status": "2",
+        "velX": "-5",
+        "velY": "-20",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpForward2": {
+        "status": "1",
+        "velX": "7",
+        "velY": "-20",
+        "accelX": "0",
+        "accelY": "0",
+        "customCall": "0"
+      },
+      "jumpBackward2": {
+        "status": "2",
+        "velX": "-5",
+        "velY": "-20",
+        "accelX": "0",
+        "accelY": "0",
+        "customCall": "0"
+      },
+      "FA": {
+        "status": "1",
+        "velX": "5",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_belly",
+        "customCall": "FA"
+      },
+      "FA2": {
+        "status": "1",
+        "velX": "3",
+        "velY": "10",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "3",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_elbow",
+        "customCall": "FA2"
+      },
+      "BA": {
+        "status": "2",
+        "velX": "6",
+        "velY": "-5",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_dropkick",
+        "customCall": "BA"
+      },
+      "BA2": {
+        "status": "2",
+        "velX": "0",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "1",
+        "activeFrameStop": "3",
+        "landingLag": "20",
+        "hasVFX": "1",
+        "SFX": "poderoso_furyclaw",
+        "customCall": "BA2"
+      },
+      "SPECIAL": {
+        "status": "99",
+        "velX": "0",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "activeFrameStart": "0",
+        "activeFrameStop": "0",
+        "isProjectile": "1",
+        "customCall": "SP"
+      },
+      "ULTIMATE": {
+        "status": "99",
+        "velX": "0",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "activeFrameStart": "0",
+        "activeFrameStop": "0",
+        "isProjectile": "0",
+        "customCall": "UL"
+      },
+      "SPprojectile": {
+        "name": "SP_Projectile",
+        "velX": "12",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "10",
+        "canSlide": "1",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      },
+      "ULprojectile": {
+        "name": "UL_Projectile",
+        "velX": "15",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "canSlide": "0",
+        "isNonDamaging": "0",
+        "floorSpawn": "0"
+      }
+    },
+    "elruidoso": {
+      "displayName": "TEN",
+      "baseGravity": "10",
+      "portraitAnim": "JumpFwd",
+      "portraitFrame": "2",
+      "jumpForward": {
+        "status": "1",
+        "velX": "8",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpBackward": {
+        "status": "2",
+        "velX": "-7",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "10",
+        "customCall": "0"
+      },
+      "jumpForward2": {
+        "status": "1",
+        "velX": "8",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "0",
+        "customCall": "0"
+      },
+      "jumpBackward2": {
+        "status": "2",
+        "velX": "-7",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "0",
+        "customCall": "0"
+      },
+      "FA": {
+        "status": "1",
+        "velX": "5",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_belly",
+        "customCall": "FA"
+      },
+      "FA2": {
+        "status": "1",
+        "velX": "3",
+        "velY": "10",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "3",
+        "landingLag": "20",
+        "hasVFX": "0",
+        "SFX": "poderoso_elbow",
+        "customCall": "FA2"
+      },
+      "BA": {
+        "status": "2",
+        "velX": "6",
+        "velY": "-5",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "2",
+        "activeFrameStop": "2",
+        "landingLag": "10",
+        "hasVFX": "0",
+        "SFX": "poderoso_dropkick",
+        "customCall": "BA"
+      },
+      "BA2": {
+        "status": "2",
+        "velX": "0",
+        "velY": "-15",
+        "accelX": "0",
+        "accelY": "10",
+        "activeFrameStart": "1",
+        "activeFrameStop": "3",
+        "landingLag": "20",
+        "hasVFX": "1",
+        "SFX": "poderoso_furyclaw",
+        "customCall": "BA2"
+      },
+      "SPECIAL": {
+        "status": "99",
+        "velX": "2",
+        "velY": "5",
+        "accelX": "-2",
+        "accelY": "20",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "isProjectile": "1",
+        "customCall": "SP"
+      },
+      "ULTIMATE": {
+        "status": "99",
+        "velX": "2",
+        "velY": "5",
+        "accelX": "-2",
+        "accelY": "20",
+        "activeFrameStart": "1",
+        "activeFrameStop": "1",
+        "isProjectile": "1",
+        "customCall": "UL"
+      },
+      "SPprojectile": {
+        "name": "SP_Projectile",
+        "velX": "0",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "canSlide": "1",
+        "isNonDamaging": "0",
+        "floorSpawn": "1"
+      },
+      "ULprojectile": {
+        "name": "UL_Projectile",
+        "velX": "0",
+        "velY": "0",
+        "accelX": "0",
+        "accelY": "0",
+        "canSlide": "1",
+        "isNonDamaging": "0",
+        "floorSpawn": "1"
+      }
+    }
+  }
+}

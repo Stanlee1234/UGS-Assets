@@ -1,0 +1,1844 @@
+{
+  "palettes": {
+    "elpoderoso": {
+      "pal1": {
+        "char": [
+          "EB331C",
+          "B16B44",
+          "773E1F",
+          "EFD273",
+          "333333",
+          "F89418",
+          "EBD0C2"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal2": {
+        "char": [
+          "c51b30",
+          "c38646",
+          "95482c",
+          "efe09f",
+          "333333",
+          "f7d518",
+          "EBD0C2"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal3": {
+        "char": [
+          "e41054",
+          "965032",
+          "482115",
+          "cccccc",
+          "200d0f",
+          "e3f019",
+          "EBD0C2"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal4": {
+        "char": [
+          "f89418",
+          "773e1f",
+          "b16b44",
+          "EFCB71",
+          "333333",
+          "eb331c",
+          "EBD0C2"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "EFCB71",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal5": {
+        "char": [
+          "773E1F",
+          "F89418",
+          "EB331C",
+          "EFD273",
+          "333333",
+          "B16B44",
+          "EBD0C2"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal6": {
+        "char": [
+          "EB331C",
+          "B16B44",
+          "773E1F",
+          "EFD273",
+          "333333",
+          "F89418",
+          "EBD0C2"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal7": {
+        "char": [
+          "EB331C",
+          "B16B44",
+          "773E1F",
+          "EFD273",
+          "333333",
+          "F89418",
+          "EBD0C2"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal8": {
+        "char": [
+          "EB331C",
+          "B16B44",
+          "773E1F",
+          "EFD273",
+          "333333",
+          "F89418",
+          "EBD0C2"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "tols": {
+        "char": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ],
+        "vfx": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ]
+      }
+    },
+    "elasombroso": {
+      "pal1": {
+        "char": [
+          "263c67",
+          "f8af39",
+          "cb6a00",
+          "fbc27f",
+          "333333",
+          "f5f0f6",
+          "EBD0C2"
+        ],
+        "vfx": [
+          "d2759c",
+          "67ff02",
+          "ABCDEF",
+          "a5ff9f",
+          "efb4d0",
+          "ABCDEF",
+          "FFFFFF"
+        ]
+      },
+      "pal2": {
+        "char": [
+          "1d20bc",
+          "a38526",
+          "3d2000",
+          "fbcccc",
+          "181818",
+          "dfeaf6",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "b9bff6",
+          "b621ec",
+          "ABCDEF",
+          "fdeffe",
+          "4a178c",
+          "ABCDEF",
+          "FFFFFF"
+        ]
+      },
+      "pal3": {
+        "char": [
+          "125084",
+          "c47c2b",
+          "7b490f",
+          "d2efed",
+          "666",
+          "d2c9de",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "9a3ad3",
+          "67ff01",
+          "ABCDEF",
+          "cbffad",
+          "f40997",
+          "ABCDEF",
+          "FFFFFF"
+        ]
+      },
+      "pal4": {
+        "char": [
+          "f5f0f6",
+          "cb6a00",
+          "f8af39",
+          "fbc27f",
+          "333333",
+          "263c67",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "8bbc46",
+          "58ff100",
+          "ABCDEF",
+          "a6faa6",
+          "fcf456",
+          "ABCDEF",
+          "FFFFFF"
+        ]
+      },
+      "pal5": {
+        "char": [
+          "cb6a00",
+          "f5f0f6",
+          "263c67",
+          "fbc27f",
+          "333333",
+          "f8af39",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "c0582e",
+          "f54d4b",
+          "ABCDEF",
+          "a5fda4",
+          "f9a772",
+          "ABCDEF",
+          "FFFFFF"
+        ]
+      },
+      "pal6": {
+        "char": [
+          "58761d",
+          "6ba46a",
+          "ABCDEF",
+          "a5fda3",
+          "9ec863",
+          "ABCDEF",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "58761d",
+          "6ba46a",
+          "ABCDEF",
+          "a5fda4",
+          "9ec864",
+          "ABCDEF",
+          "FFFFFF"
+        ]
+      },
+      "pal7": {
+        "char": [
+          "917d9f",
+          "a476d6",
+          "ABCDEF",
+          "917da1",
+          "ebddfa",
+          "ABCDEF",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "917d9f",
+          "a476d7",
+          "ABCDEF",
+          "917da2",
+          "ebddfa",
+          "ABCDEF",
+          "FFFFFF"
+        ]
+      },
+      "pal8": {
+        "char": [
+          "fff20e",
+          "4bdb67",
+          "ABCDEF",
+          "ea6807",
+          "711578",
+          "ABCDEF",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "fff20e",
+          "4bdb68",
+          "ABCDEF",
+          "ea6808",
+          "711578",
+          "ABCDEF",
+          "FFFFFF"
+        ]
+      },
+      "tols": {
+        "char": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ],
+        "vfx": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ]
+      }
+    },
+    "elfabuloso": {
+      "pal1": {
+        "char": [
+          "4fb32f",
+          "ddb278",
+          "2a1912",
+          "ceb6cf",
+          "333300",
+          "8e498f",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal2": {
+        "char": [
+          "47d14d",
+          "ddc6b2",
+          "764632",
+          "dec4df",
+          "30300",
+          "b746ca",
+          "ECEBDF"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal3": {
+        "char": [
+          "6ea635",
+          "b77733",
+          "5B230F",
+          "ceb6cf",
+          "333333",
+          "8763d6",
+          "9bc3cb"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "5b23df",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal4": {
+        "char": [
+          "8e498f",
+          "2a1912",
+          "ddb278",
+          "fce0ff",
+          "333300",
+          "4fb32f",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal5": {
+        "char": [
+          "2a1912",
+          "8e498f",
+          "4fb32f",
+          "ceb6cf",
+          "333300",
+          "ddb278",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal6": {
+        "char": [
+          "f43cd0",
+          "f4cbaa",
+          "941bbe",
+          "941bbe",
+          "941bbe",
+          "fde9b9",
+          "f4cbaa"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal7": {
+        "char": [
+          "f40999",
+          "edd7c6",
+          "f4eeff",
+          "f4eeff",
+          "f4eeff",
+          "f5e096",
+          "edd7c6"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal8": {
+        "char": [
+          "f40c65",
+          "12023a",
+          "070117",
+          "070117",
+          "070117",
+          "12023a",
+          "12023a"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "tols": {
+        "char": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ],
+        "vfx": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ]
+      }
+    },
+    "eltalentoso": {
+      "pal1": {
+        "char": [
+          "fff427",
+          "7a6969",
+          "aa9292",
+          "99cccc",
+          "aa6b56",
+          "528879",
+          "f3f1f3"
+        ],
+        "vfx": [
+          "a76a58",
+          "a6acba",
+          "0CB8DC",
+          "5bddeb",
+          "f4004f",
+          "f3f1f3",
+          "f3f1f3"
+        ]
+      },
+      "pal2": {
+        "char": [
+          "d9ea35",
+          "5e3f4a",
+          "83586a",
+          "99cccc",
+          "aa6b56",
+          "45af49",
+          "D2F8F2"
+        ],
+        "vfx": [
+          "a76a58",
+          "0D916E",
+          "43c82D",
+          "43EA2D",
+          "f4004f",
+          "D2F8F2",
+          "D2F8F2"
+        ]
+      },
+      "pal3": {
+        "char": [
+          "fddc1a",
+          "2d141f",
+          "3b222c",
+          "99cccc",
+          "aa6b56",
+          "3aaf52",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "aa7b5a",
+          "bfb8cf",
+          "8c2454",
+          "ec397d",
+          "d12fd6",
+          "FFFFFF",
+          "FFFFFF"
+        ]
+      },
+      "pal4": {
+        "char": [
+          "528879",
+          "aa9292",
+          "7a6969",
+          "99cccc",
+          "aa6b56",
+          "fff427",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "a25e52",
+          "ce9625",
+          "985f22",
+          "ce802a",
+          "f66507",
+          "feecda",
+          "feecda"
+        ]
+      },
+      "pal5": {
+        "char": [
+          "aa9292",
+          "528879",
+          "fff427",
+          "99cccc",
+          "aa6b56",
+          "7a6969",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "e5607e",
+          "db89bb",
+          "8fa9a7",
+          "8deccc",
+          "f42fe6",
+          "fef5f9",
+          "fef5f9"
+        ]
+      },
+      "pal6": {
+        "char": [
+          "8d6432",
+          "7d8e96",
+          "333333",
+          "67757d",
+          "d52d2e",
+          "454f55",
+          "454f55"
+        ],
+        "vfx": [
+          "8d6433",
+          "7d8e97",
+          "333333",
+          "67757d",
+          "d52d2e",
+          "454f56",
+          "454f56"
+        ]
+      },
+      "pal7": {
+        "char": [
+          "d38570",
+          "d2dcff",
+          "a7c7da",
+          "ecf0ff",
+          "f41565",
+          "FFFFFF",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "d38571",
+          "d2dcff",
+          "a7c7da",
+          "ecf0ff",
+          "f41566",
+          "FFFFFF",
+          "FFFFFF"
+        ]
+      },
+      "pal8": {
+        "char": [
+          "caffe4",
+          "cc0a00",
+          "8e163a",
+          "990500",
+          "59ff00",
+          "333333",
+          "333333"
+        ],
+        "vfx": [
+          "caffe5",
+          "cc0a01",
+          "8e163a",
+          "990500",
+          "59ff01",
+          "333333",
+          "333333"
+        ]
+      },
+      "tols": {
+        "char": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ],
+        "vfx": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ]
+      }
+    },
+    "elhermoso": {
+      "pal1": {
+        "char": [
+          "FFFFFF",
+          "f8af39",
+          "322422",
+          "ffffcc",
+          "9d7b92",
+          "cccccc",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal2": {
+        "char": [
+          "FFFFFF",
+          "D99931",
+          "5c423e",
+          "fffe66",
+          "9d7b92",
+          "ccb2b2",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "D99931",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal3": {
+        "char": [
+          "CCCCCC",
+          "87640C",
+          "4a312c",
+          "ffffcc",
+          "9d7b92",
+          "c5ccac",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "87640C",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal4": {
+        "char": [
+          "cccccc",
+          "322422",
+          "f8af39",
+          "ffffcc",
+          "9d7b92",
+          "FFFFFF",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal5": {
+        "char": [
+          "322422",
+          "cccccc",
+          "FFFFFF",
+          "ffffcc",
+          "9d7b92",
+          "f8af39",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal6": {
+        "char": [
+          "fcd8e7",
+          "acbf6d",
+          "ABCDEF",
+          "f419ae",
+          "7a306d",
+          "47533f",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal7": {
+        "char": [
+          "89dddd",
+          "fcd8c0",
+          "ABCDEF",
+          "f6ab58",
+          "ad632d",
+          "fcff70",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "pal8": {
+        "char": [
+          "f01c44",
+          "eee7dd",
+          "ABCDEF",
+          "4c2784",
+          "4e3fbe",
+          "1E002B",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF",
+          "ABCDEF"
+        ]
+      },
+      "tols": {
+        "char": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ],
+        "vfx": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ]
+      }
+    },
+    "elmusculoso": {
+      "pal1": {
+        "char": [
+          "f66502",
+          "b3819b",
+          "ead8d8",
+          "fabde7",
+          "ca3f5d",
+          "333333",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "c4c9d7",
+          "7bdd1c",
+          "216d4e",
+          "ABCDEF",
+          "8ba0b2",
+          "d1f488",
+          "FFFFFF"
+        ]
+      },
+      "pal2": {
+        "char": [
+          "f54001",
+          "5f344b",
+          "7b5759",
+          "fabde7",
+          "ca3f5d",
+          "333333",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "c9c2d8",
+          "20d7dd",
+          "20396d",
+          "ABCDEF",
+          "958db3",
+          "a5d6dd",
+          "FFFFFF"
+        ]
+      },
+      "pal3": {
+        "char": [
+          "e47717",
+          "7e6469",
+          "b19da3",
+          "fabde7",
+          "ca3f5d",
+          "666666",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "eddc9d",
+          "fef6e2",
+          "b89a3d",
+          "ABCDEF",
+          "837254",
+          "ffae46",
+          "FFFFFF"
+        ]
+      },
+      "pal4": {
+        "char": [
+          "333333",
+          "ead8d8",
+          "b3819b",
+          "fabde7",
+          "ca3f5d",
+          "f66502",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "afa1a7",
+          "c6ddff",
+          "4f39c3",
+          "ABCDEF",
+          "70676a",
+          "e9b3ff",
+          "FFFFFF"
+        ]
+      },
+      "pal5": {
+        "char": [
+          "ead8d8",
+          "333333",
+          "f66502",
+          "fabde7",
+          "ca3f5d",
+          "b3819b",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "cccccc",
+          "ff6603",
+          "0066cc",
+          "ABCDEF",
+          "00339a",
+          "ffcc99",
+          "FFFFFF"
+        ]
+      },
+      "pal6": {
+        "char": [
+          "8e9983",
+          "ffcccc",
+          "cc0000",
+          "ABCDEF",
+          "998181",
+          "ff9966",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "8e9984",
+          "ffcccc",
+          "cc0001",
+          "ABCDEF",
+          "998181",
+          "ff9967",
+          "FFFFFF"
+        ]
+      },
+      "pal7": {
+        "char": [
+          "333333",
+          "336666",
+          "e9fffe",
+          "ABCDEF",
+          "9dc8ba",
+          "00cc99",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "333333",
+          "336666",
+          "e9fffe",
+          "ABCDEF",
+          "9dc8ba",
+          "00cc99",
+          "FFFFFF"
+        ]
+      },
+      "pal8": {
+        "char": [
+          "280d0d",
+          "ffffff",
+          "292c2f",
+          "ABCDEF",
+          "633f40",
+          "cccccc",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "280d0d",
+          "ffffff",
+          "292c2f",
+          "ABCDEF",
+          "633f41",
+          "cccccc",
+          "FFFFFF"
+        ]
+      },
+      "tols": {
+        "char": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ],
+        "vfx": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ]
+      }
+    },
+    "elpeligroso": {
+      "pal1": {
+        "char": [
+          "b417e4",
+          "c5aa9a",
+          "6a3d3d",
+          "ffff66",
+          "c53534",
+          "5dc4d5",
+          "f4f4f4"
+        ],
+        "vfx": [
+          "fe44bf",
+          "f4f4f4",
+          "50345f",
+          "7e5197",
+          "fe45bd",
+          "ebe6ed",
+          "f4f4f4"
+        ]
+      },
+      "pal2": {
+        "char": [
+          "d512e4",
+          "dcae7c",
+          "815536",
+          "ffff66",
+          "c53534",
+          "52b3a6",
+          "f4f4f4"
+        ],
+        "vfx": [
+          "fe44bf",
+          "f4f4f4",
+          "F1F6FA",
+          "D8890A",
+          "F6CE3B",
+          "50ADBC",
+          "f4f4f4"
+        ]
+      },
+      "pal3": {
+        "char": [
+          "7633e4",
+          "b697b6",
+          "572c3c",
+          "ffff66",
+          "c53534",
+          "529cbe",
+          "f4f4f4"
+        ],
+        "vfx": [
+          "3ffc00",
+          "ffffcc",
+          "00cc67",
+          "34ff67",
+          "00cc01",
+          "ffcc02",
+          "f4f4f5"
+        ]
+      },
+      "pal4": {
+        "char": [
+          "5dc4d5",
+          "6a3d3d",
+          "c5aa9a",
+          "ffff66",
+          "c53534",
+          "b417e4",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "62eff7",
+          "fcf6f9",
+          "343554",
+          "c04bb5",
+          "34dbfb",
+          "ef29f10",
+          "f4f4f5"
+        ]
+      },
+      "pal5": {
+        "char": [
+          "6a3d3d",
+          "5dc4d5",
+          "b417e4",
+          "ffff66",
+          "c53534",
+          "c5aa9a",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ffff100",
+          "fff9c1",
+          "fbc42a",
+          "ffcc02",
+          "fcdc50",
+          "333334",
+          "f4f4f5"
+        ]
+      },
+      "pal6": {
+        "char": [
+          "66ffff",
+          "b6869b",
+          "e50021",
+          "fff9c0",
+          "5b267d",
+          "fff9c0",
+          "f4f4f4"
+        ],
+        "vfx": [
+          "66ffff",
+          "b6869b",
+          "e50022",
+          "fff9c1",
+          "5b267d",
+          "fff9c1",
+          "f4f4f5"
+        ]
+      },
+      "pal7": {
+        "char": [
+          "34d9e6",
+          "f1eff1",
+          "f1eff1",
+          "9ca2b1",
+          "34d9e6",
+          "fe0047",
+          "f4f4f4"
+        ],
+        "vfx": [
+          "34d9e7",
+          "f1eff2",
+          "f1eff2",
+          "9ca2b2",
+          "34d9e7",
+          "fe0048",
+          "f4f4f5"
+        ]
+      },
+      "pal8": {
+        "char": [
+          "ff9901",
+          "fff5e2",
+          "fa524d",
+          "ce453f",
+          "ffffff",
+          "5da6f8",
+          "f4f4f4"
+        ],
+        "vfx": [
+          "ff9902",
+          "fff5e3",
+          "fa524d",
+          "ce453f",
+          "ffffff",
+          "5da6f9",
+          "f4f4f5"
+        ]
+      },
+      "tols": {
+        "char": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ],
+        "vfx": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ]
+      }
+    },
+    "eltenebroso": {
+      "pal1": {
+        "char": [
+          "211c1c",
+          "9f8f8f",
+          "534b4b",
+          "333333",
+          "f66533",
+          "666666",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ff7921",
+          "ffffff",
+          "333334",
+          "ABCDEF",
+          "cccccc",
+          "fff837",
+          "FFFFFF"
+        ]
+      },
+      "pal2": {
+        "char": [
+          "1a2120",
+          "7a8786",
+          "474853",
+          "333333",
+          "4cdf83",
+          "575a65",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "b2fcff",
+          "ffffff",
+          "17003c",
+          "ABCDEF",
+          "d7fffc",
+          "f607e5",
+          "FFFFFF"
+        ]
+      },
+      "pal3": {
+        "char": [
+          "1f211d",
+          "979f7a",
+          "535241",
+          "333333",
+          "cee621",
+          "5a6654",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "fccc07",
+          "ffffff",
+          "0b1e22",
+          "ABCDEF",
+          "1466cd",
+          "cc0a01",
+          "FFFFFF"
+        ]
+      },
+      "pal4": {
+        "char": [
+          "666666",
+          "534b4b",
+          "9f8f8f",
+          "000000",
+          "ffffff",
+          "211c1c",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "9865cc",
+          "ffffff",
+          "1e6635",
+          "ABCDEF",
+          "989934",
+          "cc99cc",
+          "FFFFFF"
+        ]
+      },
+      "pal5": {
+        "char": [
+          "534b4b",
+          "666666",
+          "211c1c",
+          "333333",
+          "f66533",
+          "9f8f8f",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "927f92",
+          "dccdd10",
+          "812000",
+          "ABCDEF",
+          "d6d1e1",
+          "60434f",
+          "FFFFFF"
+        ]
+      },
+      "pal6": {
+        "char": [
+          "1f6154",
+          "b2e2ed",
+          "051d33",
+          "ABCDEF",
+          "ffffff",
+          "b5e1a3",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "1f6155",
+          "b2e2ed",
+          "051d34",
+          "ABCDEF",
+          "ffffff",
+          "b5e1a4",
+          "FFFFFF"
+        ]
+      },
+      "pal7": {
+        "char": [
+          "ffffff",
+          "cc0000",
+          "272721",
+          "ABCDEF",
+          "cccccc",
+          "00cc00",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "ffffff",
+          "cc0001",
+          "272721",
+          "ABCDEF",
+          "cccccc",
+          "00cc01",
+          "FFFFFF"
+        ]
+      },
+      "pal8": {
+        "char": [
+          "990000",
+          "000000",
+          "f2f8ff",
+          "000033",
+          "000033",
+          "003399",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "990000",
+          "000001",
+          "f2f8ff",
+          "000034",
+          "000034",
+          "003400",
+          "FFFFFF"
+        ]
+      },
+      "tols": {
+        "char": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ],
+        "vfx": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ]
+      }
+    },
+    "elmaravilloso": {
+      "pal1": {
+        "char": [
+          "ee3777",
+          "f4dcfa",
+          "7644a4",
+          "ba47b7",
+          "cc2255",
+          "e2dc5c",
+          "f4dcfa"
+        ],
+        "vfx": [
+          "ee3777",
+          "f4dcfa",
+          "7644a4",
+          "ba47b7",
+          "cc2255",
+          "e2dc5c",
+          "f4dcfa"
+        ]
+      },
+      "pal2": {
+        "char": [
+          "0F5CFF",
+          "C2CEFF",
+          "45D0A0",
+          "59D08F",
+          "1941D0",
+          "A659D0",
+          "C2CEFF"
+        ],
+        "vfx": [
+          "0F5CFF",
+          "C2CEFF",
+          "45D0A1",
+          "59D08F",
+          "1941D1",
+          "A659D1",
+          "C2CEFF"
+        ]
+      },
+      "pal3": {
+        "char": [
+          "FCCC33",
+          "E7FFE9",
+          "696BFF",
+          "4445A5",
+          "F9A33E",
+          "F66502",
+          "E7FFE9"
+        ],
+        "vfx": [
+          "FCCC34",
+          "E7FFE10",
+          "696BFF",
+          "4445A6",
+          "F9A33E",
+          "F66503",
+          "E7FFE10"
+        ]
+      },
+      "pal4": {
+        "char": [
+          "339901",
+          "ccffe0",
+          "9E6F59",
+          "855248",
+          "2A7F01",
+          "2A7F01",
+          "2A7F01"
+        ],
+        "vfx": [
+          "339901",
+          "ccffe1",
+          "9E6F59",
+          "855248",
+          "2A7F01",
+          "2A7F01",
+          "2A7F01"
+        ]
+      },
+      "pal5": {
+        "char": [
+          "998780",
+          "D3CCA4",
+          "D36E17",
+          "80603B",
+          "996B6B",
+          "D3C184",
+          "D3C184"
+        ],
+        "vfx": [
+          "998780",
+          "D3CCA4",
+          "D36E17",
+          "80603B",
+          "996B6B",
+          "D3C184",
+          "D3C184"
+        ]
+      },
+      "pal6": {
+        "char": [
+          "666666",
+          "FFFFFF",
+          "000000",
+          "FFFFFF",
+          "333333",
+          "CCCCCC",
+          "F7CE5B"
+        ],
+        "vfx": [
+          "666666",
+          "FFFFFF",
+          "000001",
+          "FFFFFF",
+          "333333",
+          "CCCCCC",
+          "F7CE5B"
+        ]
+      },
+      "pal7": {
+        "char": [
+          "E2DC5C",
+          "BA47BB",
+          "CB2356",
+          "7644A5",
+          "C5BF50",
+          "ED3778",
+          "34F6F2"
+        ],
+        "vfx": [
+          "E2DC5C",
+          "BA47BB",
+          "CB2357",
+          "7644A6",
+          "C5BF51",
+          "ED3779",
+          "34F6F3"
+        ]
+      },
+      "pal8": {
+        "char": [
+          "FEFEFE",
+          "F50E05",
+          "79777F",
+          "79777F",
+          "C4C4D8",
+          "6CFEFF",
+          "ABCDEF"
+        ],
+        "vfx": [
+          "FEFEFE",
+          "F50E06",
+          "79777F",
+          "79777F",
+          "C4C4D9",
+          "6CFEFF",
+          "ABCDEF"
+        ]
+      },
+      "tols": {
+        "char": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ],
+        "vfx": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ]
+      }
+    },
+    "elruidoso": {
+      "pal1": {
+        "char": [
+          "299ea7",
+          "1e6f73",
+          "3ffefa",
+          "31d9e4",
+          "ABCDEF",
+          "feff0e",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "299ea8",
+          "1e6f74",
+          "3ffefa",
+          "31d9e5",
+          "ABCDEF",
+          "feff0e",
+          "FFFFFF"
+        ]
+      },
+      "pal2": {
+        "char": [
+          "4E31A7",
+          "6E54B2",
+          "BA53FE",
+          "8B45E4",
+          "ABCDEF",
+          "feff0e",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "4E31A8",
+          "6E54B3",
+          "BA53FE",
+          "8B45E5",
+          "ABCDEF",
+          "feff0e",
+          "FFFFFF"
+        ]
+      },
+      "pal3": {
+        "char": [
+          "37A75A",
+          "23743D",
+          "58FE7B",
+          "4FE449",
+          "ABCDEF",
+          "CC0A00",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "37A75A",
+          "23743D",
+          "58FE7B",
+          "4FE450",
+          "ABCDEF",
+          "CC0A01",
+          "FFFFFF"
+        ]
+      },
+      "pal4": {
+        "char": [
+          "A73030",
+          "742222",
+          "F6595A",
+          "E43B3B",
+          "ABCDEF",
+          "CCFF00",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "A73031",
+          "742223",
+          "F6595A",
+          "E43B3B",
+          "ABCDEF",
+          "CCFF01",
+          "FFFFFF"
+        ]
+      },
+      "pal5": {
+        "char": [
+          "99a5a7",
+          "627174",
+          "ecfafe",
+          "c7d2e4",
+          "ABCDEF",
+          "ffffff",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "99a5a8",
+          "627174",
+          "ecfafe",
+          "c7d2e5",
+          "ABCDEF",
+          "ffffff",
+          "FFFFFF"
+        ]
+      },
+      "pal6": {
+        "char": [
+          "6f4929",
+          "57391e",
+          "c4926e",
+          "976433",
+          "ABCDEF",
+          "55ffff",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "6f4930",
+          "57391e",
+          "c4926e",
+          "976433",
+          "ABCDEF",
+          "55ffff",
+          "FFFFFF"
+        ]
+      },
+      "pal7": {
+        "char": [
+          "e48f23",
+          "e4bd3c",
+          "ffff66",
+          "e4d747",
+          "ABCDEF",
+          "cc0a00",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "e48f24",
+          "e4bd3c",
+          "ffff67",
+          "e4d748",
+          "ABCDEF",
+          "cc0a01",
+          "FFFFFF"
+        ]
+      },
+      "pal8": {
+        "char": [
+          "1a1245",
+          "130d32",
+          "4e3bdb",
+          "271d69",
+          "ABCDEF",
+          "f560e5",
+          "FFFFFF"
+        ],
+        "vfx": [
+          "1a1246",
+          "130d33",
+          "4e3bdb",
+          "271d70",
+          "ABCDEF",
+          "f560e6",
+          "FFFFFF"
+        ]
+      },
+      "tols": {
+        "char": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ],
+        "vfx": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "15",
+          "1",
+          "888888"
+        ]
+      }
+    }
+  }
+}
