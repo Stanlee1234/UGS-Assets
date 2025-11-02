@@ -1,222 +1,141 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Real Flight Simulator - FreezeNova</title>
-	
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-	
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
 
-	
-<style type="text/css">
-	body {
-	  overflow: hidden;
-	}
-</style>
-
-	
-	
-
-	<script>
-	
-	function SubmitLeaderboardScore(newScore)
-	{
-		
-	}
-	
-	function GetLeaderboardEntries()
-	{
-		
-	}
-	
-	function InitApi(_appId) 
-    {
-		var dateNow = new Date();
-		var secondsSinceEpoch = Math.round(dateNow.getTime() / 1000);
-		
-		console.log('InitApi');
-		
-		window.callTime = secondsSinceEpoch - 181;
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Unity WebGL Player | George and the Printer</title>
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <script src="Build/UnityLoader.js"></script>
+  <script>
+    function mergeFiles(fileParts) {
+      return new Promise((resolve, reject) => {
+        let buffers = [];
+        function fetchPart(i) {
+          if (i >= fileParts.length) {
+            let mergedBlob = new Blob(buffers);
+            resolve(mergedBlob);
+            return;
+          }
+          fetch(fileParts[i])
+            .then(r => r.arrayBuffer())
+            .then(data => {
+              buffers.push(data);
+              fetchPart(i + 1);
+            })
+            .catch(reject);
+        }
+        fetchPart(0);
+      });
     }
-	
-	function InitExternEval(_appId) 
-    {
-		console.log("InitExternEval");
-		
-		ExternEval();
-    }
-    
-    function ExternEval() 
-    {
-		console.log("ExternEval");
-		
-		var dateNow = new Date();
-		var secondsSinceEpoch = Math.round(dateNow.getTime() / 1000);
-		
-		if (window.callTime != undefined && 
-			secondsSinceEpoch - window.callTime > 180)
-		{
-			console.log('ExternEval 2');
-			
-			window.callTime = secondsSinceEpoch;
-			
-			if (typeof preroll !== 'undefined')
-			{
-				if (window[preroll.config.loaderObjectName] != undefined)
-				{
-					gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onOpen');
-				
-					try {
-						window[preroll.config.loaderObjectName].refetchAd(ExternEvalResumeGame);
-					}
-					catch(err) {
-						console.log(err.message);
-						gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
-					}
-				}
-			}
-		}
-		
-    }
-	
-	function ExternEvalResumeGame()
-	{
-		console.log("ExternEvalResumeGame");
-	
-		gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
-	}
-	
-	function PreloadRewarded() 
-	{
-		console.log("PreloadRewarded");
-	
-		if (window.rewardedCallbacks == undefined)
-		{
-			window.rewardedCallbacks = true;
-			
-			try {
-				window[window.preroll.config.loaderObjectName].registerRewardCallbacks({
-					onReady:RewardedReady, 
-					onSuccess:RewardedSuccess, 
-					onFail:RewardedFail,
-					onClose:RewardedClose
-				});
-			}
-			catch(err) {
-				console.log(err.message);
-			}
-		}
-	}
-		
-	function ShowRewarded() 
-	{
-		console.log("ShowRewarded");
-	
-		if (typeof preroll !== 'undefined')
-		{
-			if (window.rewardedCallbacks == undefined)
-			{
-				PreloadRewarded();
-			}
-		
-			if (window[preroll.config.loaderObjectName] != undefined)
-			{
-				gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onOpen');
-			
-				try {
-					window[preroll.config.loaderObjectName].showRewardAd();
-				}
-				catch(err) {
-					console.log(err.message);
-					gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
-				}
-			}
-		}
-	
-	}
-	
-	function RewardedReady()
-	{
-		console.log("RewardedReady");
-		
-		if (window.rewardedCount == undefined)
-		{
-			window.rewardedCount = 1;
-			window.gameInstance.SendMessage('FreezeNovaAPI', 'RewardedReady');
-		}
-		else{
-			window.rewardedCount = window.rewardedCount + 1;
-			//setTimeout(function(){ window.gameInstance.SendMessage('FreezeNovaAPI', 'RewardedReady'); }, 30000);
-			window.gameInstance.SendMessage('FreezeNovaAPI', 'RewardedReady');
-		}
-		
-	}
-	
-	function RewardedSuccess()
-	{
-		console.log("RewardedSuccess");
-		gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'RewardedOnRewarded');
-		//gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
-	}
-	
-	function RewardedFail()
-	{
-		console.log("RewardedFail");
-		gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'RewardedOnFail');
-		//gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
-	}
-	
-	function RewardedClose()
-	{
-		console.log("RewardedClose");
-		gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
-	}
-	
-	InitApi(0);
-	
-	
-	</script>
 
-	
-	<script>
-	
-	function FitScreen(){
-       var w = 1280;
-       var h = 720;
-	   
-       var availWidth = window.innerWidth;
-       var availHeight = window.innerHeight;
-	   
-       var canvas = document.getElementById("#canvas");
-       if(availWidth/availHeight>w/h){
-         height = availHeight;
-         width = (height*w/h);
-      }else{
-         width = availWidth;
-         height = width*h/w;
+    function getParts(file, start, end) {
+      let arr = [];
+      for (let i = start; i <= end; i++) {
+        arr.push(file + ".part" + i);
       }
-	  
-      canvas.width = width;
-      canvas.height = height;
-	  
-       document.getElementById("gameContainer").style.width=width + "px";
-       document.getElementById("gameContainer").style.height=height + "px";
-	   
+      return arr;
     }
-	
-	var gameInstance = UnityLoader.instantiate("gameContainer", "Build/game.json", {onProgress: UnityProgress});
-	
-	</script>
 
-  </head>
-  <body onfocus="FitScreen();" onload="FitScreen();" onresize="FitScreen();" style="width:100%; height:100%">
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: auto; height: auto"></div>
+    function resizeUnityContainer() {
+      var container = document.getElementById("gameContainer");
+      if (container) {
+        container.style.width = window.innerWidth + "px";
+        container.style.height = window.innerHeight + "px";
+      }
+    }
+
+    window.addEventListener('resize', resizeUnityContainer);
+
+    function UnityProgress(gameInstance, progress) {
+      try {
+        if (progress === 'complete') {
+          return;
+        }
+        var pct = 0;
+        if (typeof progress === 'number') pct = progress;
+        else if (progress && progress.total && progress.loaded) pct = progress.loaded / progress.total;
+        var txt = document.getElementById('loading-text');
+        if (txt) txt.textContent = 'Loading... ' + Math.round(pct * 100) + '%';
+      } catch (e) {
+        console.error('Progress error:', e);
+      }
+    }
+
+    window.addEventListener("load", function () {
+      window.unityMergedFiles = {};
+      
+      Promise.all([
+        mergeFiles(getParts("Build/game.data.unityweb", 1, 2)),
+        mergeFiles(getParts("Build/game.asm.code.unityweb", 1, 1)), 
+        mergeFiles(getParts("Build/game.asm.memory.unityweb", 1, 1)),
+        mergeFiles(getParts("Build/game.asm.framework.unityweb", 1, 1))
+      ]).then(([dataBlob, wasmCodeBlob, wasmMemoryBlob, wasmFrameworkBlob]) => {
+        window.unityMergedFiles['Build/game.data.unityweb'] = URL.createObjectURL(dataBlob);
+        window.unityMergedFiles['Build/game.asm.code.unityweb'] = URL.createObjectURL(wasmCodeBlob);
+        window.unityMergedFiles['Build/game.asm.memory.unityweb'] = URL.createObjectURL(wasmMemoryBlob);
+        window.unityMergedFiles['Build/game.asm.framework.unityweb'] = URL.createObjectURL(wasmFrameworkBlob);
+        
+        console.log("Merged files ready:", Object.keys(window.unityMergedFiles));
+        
+        const originalFetch = window.fetch;
+        window.fetch = function(url, ...args) {
+          if (typeof url === 'string' && window.unityMergedFiles[url]) {
+            console.log("Redirecting fetch to merged file:", url);
+            return originalFetch(window.unityMergedFiles[url], ...args);
+          }
+          return originalFetch(url, ...args);
+        };
+        
+        const OriginalXHR = window.XMLHttpRequest;
+        window.XMLHttpRequest = function() {
+          const xhr = new OriginalXHR();
+          const originalOpen = xhr.open;
+          
+          xhr.open = function(method, url, ...args) {
+            if (typeof url === 'string' && window.unityMergedFiles[url]) {
+              console.log("Redirecting XHR to merged file:", url);
+              return originalOpen.call(this, method, window.unityMergedFiles[url], ...args);
+            }
+            return originalOpen.call(this, method, url, ...args);
+          };
+          
+          return xhr;
+        };
+        
+        // Load Unity
+        window.gameInstance = UnityLoader.instantiate("gameContainer", "Build/game.json", {
+          onProgress: UnityProgress,
+          Module: {
+            onRuntimeInitialized: function () {
+              resizeUnityContainer();
+              let loadingText = document.querySelector("#loading-text");
+              if (loadingText) loadingText.remove();
+              UnityProgress(window.gameInstance, 'complete');
+            }
+          }
+        });
+      })
+      .catch(err => {
+        console.error("Unity load failed:", err);
+        let txt = document.getElementById('loading-text');
+        if (txt) txt.textContent = 'Loading failed: ' + err.message;
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="webgl-content">
+    <div id="gameContainer" style="width: 960px; height: 600px">
+      <p id="loading-text">Loading...</p>
     </div>
-  </body>
+    <div class="footer">
+      <div class="webgl-logo"></div>
+      <div class="fullscreen" onclick="window.gameInstance && window.gameInstance.SetFullscreen(1)"></div>
+    </div>
+  </div>
+</body>
+
 </html>
