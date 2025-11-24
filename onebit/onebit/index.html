@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | OneBit Adventure</title>
+    <base href="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/onebit/onebit/">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -31,11 +32,11 @@
           { name: 'dda4424b5711beba81724377a723611a.wasm.br', parts: 2 },
           { name: 'f14e31b82414f5f8e7ab28f7f3909ea5.js.br', parts: 1 },
         ],
-        basePath: 'Build/',
+        basePath: 'build/',
         debug: true
       };  
       </script>
-    <script src="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@ac5cdfc0042aca584e72619375b4aca948a9243c/merge.js"></script>
+        <script src="merge.js"></script>
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
@@ -68,7 +69,7 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
+      var buildUrl = "build";
       var loaderUrl = buildUrl + "/OneBit v1.3.203 Browser.loader.js";
       var config = {
         dataUrl: buildUrl + "/319c298f7018bac0a1d0f632e77c9799.data.br",
@@ -130,4 +131,3 @@
     </script>
   </body>
 </html>
-<script defer src="" type="text/javascript"></script>
